@@ -11,3 +11,6 @@ To use it (as a copy/paste solidity dev):
 4. YOU MUST TRUST THE ERC20 CONTROLLER ADDRESS. It can perform privileged actions on your contract, even after ownership is renounced. 
 
 If you're not a copy/paste dev, congratulations. You should be able to work out what to do from above. 
+
+
+To use it, you need to provide one extra function to the raw calls - you will need to provide the address of the token you wish to perform your actions on. This supports ERC20-compliant tokens. You can use Etherscan or whatever to make these calls if you've uploaded your contract code as it should come into your contract ABI. 
